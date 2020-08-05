@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/service1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".OneService.ServiceAndSendActivity">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentContainer">
+
+    </FrameLayout>
+
+</LinearLayout>
+
+
+    <!--<com.google.android.material.appbar.AppBarLayout-->
+        <!--android:id="@+id/app_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay"-->
+        <!--app:layout_constraintBottom_toTopOf="@id/info_name"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_chainStyle="spread_inside">-->
+
+        <!--<androidx.appcompat.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--app:popupTheme="@style/AppTheme.PopupOverlay"></androidx.appcompat.widget.Toolbar>-->
+
+    <!--</com.google.android.material.appbar.AppBarLayout>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/info_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+
+        <!--app:fontFamily="@font/fira_sans"-->
+        <!--android:textSize="25dp"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/info_descr"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/info_name"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:fontFamily="@font/fira_sans"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/info_contactstitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Контакты"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--android:textSize="20dp"-->
+        <!--app:fontFamily="@font/fira_sans"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/info_descr" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/info_contacts"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/info_contactstitle"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:fontFamily="@font/fira_sans"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/info_paytitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Оплата"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--android:textSize="20dp"-->
+        <!--app:fontFamily="@font/fira_sans"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/info_contacts"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/info_pay"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/info_paytitle"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:fontFamily="@font/fira_sans"/>-->
+
+    <!--<com.google.android.material.button.MaterialButton-->
+        <!--android:id="@+id/button_send"-->
+        <!--style="@style/Widget.MaterialComponents.Button.TextButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ОТПРАВИТЬ ЗАЯВКУ"-->
+        <!--android:textSize="15sp"-->
+        <!--android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:onClick="SendRequest"/>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

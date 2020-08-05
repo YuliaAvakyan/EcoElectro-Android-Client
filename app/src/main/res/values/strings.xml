@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EcoElectro</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EcoElectro</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_city">Город</string>
+    <string name="search_hint">Type name…</string>
+    <string name="action_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_service_info">ServiceInfoActivity</string>
+
+
+    <string-array name="pay_way">
+        <item>Не выбрано</item>
+        <item>Карта</item>
+        <item>Наличные</item>
+
+    </string-array>
+
+    <string-array name="deli_way">
+        <item>Не выбрано</item>
+        <item>Курьер</item>
+        <item>Самостоятельно</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/maps"
+            android:title="На карте"/>
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/list"
+            android:title="Список пунктов приема" />
+        <!--<item-->
+            <!--android:id="@+id/nav_history"-->
+            <!--android:icon="@drawable/history"-->
+            <!--android:title="История" />-->
+    </group>
+    <group android:checkableBehavior="single">
+
+    <item android:title="Обратная связь">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/info"
+                android:title="О нас" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Поддержка" />
+        </menu>
+    </item>
+    </group>
+    <!--<group android:checkableBehavior="single">-->
+    <!--<item android:title="Личный кабинет">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_enter"-->
+                <!--android:icon="@drawable/in"-->
+                <!--android:title="Вход" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_exit"-->
+                <!--android:icon="@drawable/out"-->
+                <!--android:title="Выход" />-->
+        <!--</menu>-->
+    <!--</item>-->
+    <!--</group>-->
+
+</menu>

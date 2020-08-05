@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OneService.ServiceInfoFragment"
+    android:id="@+id/one_service_info">
+
+    <TextView
+        android:id="@+id/info_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+        app:fontFamily="@font/fira_sans"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/info_descr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:fontFamily="@font/fira_sans"/>
+
+    <TextView
+        android:id="@+id/info_contactstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="75dp"
+        android:text="Контакты"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20dp"
+        app:fontFamily="@font/fira_sans" />
+    <TextView
+        android:id="@+id/info_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:fontFamily="@font/fira_sans"/>
+
+    <TextView
+        android:id="@+id/info_paytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="160dp"
+        android:text="Оплата"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20dp"
+        app:fontFamily="@font/fira_sans"/>
+
+    <TextView
+        android:id="@+id/info_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="185dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:fontFamily="@font/fira_sans"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_send"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ОТПРАВИТЬ ЗАЯВКУ"
+        android:textSize="15sp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"/>
+
+</FrameLayout>
